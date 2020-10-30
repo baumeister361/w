@@ -6,11 +6,13 @@ html, body {
 body {
   background: #ccc;
   margin: 0px;
+  text-align: center;
   /* font-family: 'STIX2Text', "Times New Roman", serif; */
 }
 
 #wrapper {
-  margin:0 auto; width:900px;
+  margin:0 auto;
+  width:900px;
 }
 
 section {
