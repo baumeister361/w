@@ -69,11 +69,11 @@ p {
 }
 
 .image {
- transition: filter 0.2s;
+ transition: filter 0.1s;
 }
 
 .image:hover {
- filter: invert(50%);
+ filter: invert(30%);
 }
 
 @font-face {
