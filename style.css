@@ -68,6 +68,14 @@ p {
   height: 100%;
 }
 
+.image {
+ transition: filter 0.9s;
+}
+
+.image:hover {
+ filter: invert(100%);
+}
+
 @font-face {
     font-family: 'STIX2Text';
     src: url('STIX2Text/stix2text-bold-webfont.woff2') format('woff2'),
