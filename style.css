@@ -1,0 +1,78 @@
+/* on both */
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  background: #ccc;
+  margin: 0px;
+  /* font-family: 'STIX2Text', "Times New Roman", serif; */
+}
+
+section {
+  box-sizing: border-box; /* or not */
+  margin: 0 auto;
+  width: 25rem;
+  background: white;
+  padding: 1.5rem;
+  padding-bottom: 4rem;
+}
+
+h2, .full-width-borders {
+  /* add in section padding (1.5rem) */
+  margin: 0 -601.5rem;
+  /* match section padding (1.5rem) */
+  padding: 1.25rem 1.5rem;
+  background: #e83030;
+  /* border solid, not RGBa (Safari bug) */
+  /* 9600px or 10240px to avoid Chrome bug */
+  /* or equivalent in ems or rems (9600/16) */
+  border-left: 600rem solid maroon;
+  border-right: 600rem solid maroon;
+  color: white;
+  font-size: 1.125rem;
+}
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 14px;
+}
+
+@font-face {
+    font-family: 'STIX2Text';
+    src: url('STIX2Text/stix2text-bold-webfont.woff2') format('woff2'),
+         url('STIX2Text/stix2text-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'STIX2Text';
+    src: url('STIX2Text/stix2text-bolditalic-webfont.woff2') format('woff2'),
+         url('STIX2Text/stix2text-bolditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'STIX2Text';
+    src: url('STIX2Text/stix2text-italic-webfont.woff2') format('woff2'),
+         url('STIX2Text/stix2text-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'STIX2Text';
+    src: url('STIX2Text/stix2text-regular-webfont.woff2') format('woff2'),
+         url('STIX2Text/stix2text-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
