@@ -73,7 +73,7 @@ p {
 }
 
 .image:hover {
- filter: invert(100%);
+ filter: invert(50%);
 }
 
 @font-face {
