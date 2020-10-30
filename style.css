@@ -69,7 +69,7 @@ p {
 }
 
 .image {
- transition: filter 0.9s;
+ transition: filter 0.4s;
 }
 
 .image:hover {
