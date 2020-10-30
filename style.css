@@ -6,8 +6,11 @@ html, body {
 body {
   background: #ccc;
   margin: 0px;
-  padding: 0px;
   /* font-family: 'STIX2Text', "Times New Roman", serif; */
+}
+
+#wrapper {
+  margin:0 auto; width:900px;
 }
 
 section {
